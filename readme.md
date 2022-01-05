@@ -5,3 +5,5 @@ and then run the service
 
 //TODO 
 Use docker compose file to run this service instead of running db and service seperately
+//TODO
+Add security to the endpoints 
