@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  customerservice:
+    build: .
+    ports:
+      - "8080:8080"
+  mongoDb:
+    image: "mongo:latest"
+    ports:
+      - "27017:27017"
