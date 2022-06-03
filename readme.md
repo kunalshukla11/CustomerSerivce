@@ -9,7 +9,7 @@ mac- > docker run -d -p 8080:8080  --link mongoDb --name customerapp customerima
 With docker compose
 docker-compose up -d --run all services in detached mode
 docker compose ps --see what services run by docker compose
-docker-compose logs -f -t view logs for all services
+docker-compose logs -f -t view logs for all services (f==follow , t=timestamp)
 docker-compose logs -f -t <particular service> OR docker logs -f -t <containerId/containerName>
 //TODO
 Add security to the endpoints 
