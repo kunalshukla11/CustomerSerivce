@@ -13,3 +13,4 @@ docker-compose logs -f -t view logs for all services (f==follow , t=timestamp)
 docker-compose logs -f -t <particular service> OR docker logs -f -t <containerId/containerName>
 //TODO
 Add security to the endpoints 
+Try with Kubernets 
